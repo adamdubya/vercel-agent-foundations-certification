@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-const SITE_NAME = "Vercel Swag Store";
+const SITE_NAME = "Ship It Shop";
 const DEFAULT_DESCRIPTION =
-  "Premium merchandise for developers who ship fast. High-quality apparel and accessories featuring the Vercel brand.";
+  "Premium merchandise for developers who ship fast. High-quality apparel and accessories for the modern web.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

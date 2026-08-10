@@ -31,11 +31,11 @@ async function FeaturedProducts() {
         <div className="mx-auto grid max-w-6xl gap-8 px-4 py-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-20">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <h1 className="text-pretty text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Vercel Swag Store
+              Ship It Shop
             </h1>
             <p className="mt-4 max-w-xl text-balance text-lg text-muted-foreground">
               Premium merchandise for developers who ship fast. High-quality
-              apparel and accessories featuring the Vercel brand.
+              apparel and accessories for the modern web.
             </p>
             <Link
               href="/search"

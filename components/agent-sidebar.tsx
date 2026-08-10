@@ -12,7 +12,7 @@ export function AgentSidebar() {
     <Sidebar side="right" collapsible="offcanvas">
       <SidebarHeader>
         <div className="px-2 py-1.5 text-sm font-semibold">
-          Vercel Swag Agent
+          Ship It Shop Agent
         </div>
       </SidebarHeader>
       <SidebarContent className="overflow-hidden p-0">

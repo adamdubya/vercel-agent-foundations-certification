@@ -16,7 +16,7 @@ export function Header() {
           >
             <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" />
           </svg>
-          <span className="font-semibold">Vercel Swag Store</span>
+          <span className="font-semibold">Ship It Shop</span>
         </Link>
 
         <nav className="flex items-center gap-6">

@@ -26,13 +26,13 @@ There is no test framework wired up.
 `.env.local` (gitignored) holds:
 
 - `BYPASS_SECRET` — required. Sent as the `x-vercel-protection-bypass` header on every API call. Must never be exposed to the client (no `NEXT_PUBLIC_` prefix).
-- `API_BASE_URL` — optional. Defaults to `https://vercel-swag-store-api.vercel.app/api` in `lib/api.ts`.
+- `API_BASE_URL` — optional. Defaults to `https://vercel-agentic-swag-store-api.vercel.app/api` in `lib/api.ts`.
 
 `.env.example` is the redacted template for new developers.
 
 ## Architecture
 
-The store is backed by the live **Vercel Swag Store API** (no local product/cart database). The protection-bypass secret stays server-side: every API read happens in a Server Component or Server Action, every cart mutation goes through a Server Action, and the cart token cookie is `httpOnly`.
+The storefront brand is **Ship It Shop** (metadata, header, homepage copy). The store is backed by the live **Vercel Swag Store API** (no local product/cart database). The protection-bypass secret stays server-side: every API read happens in a Server Component or Server Action, every cart mutation goes through a Server Action, and the cart token cookie is `httpOnly`.
 
 ### Data layer (`lib/`)
 

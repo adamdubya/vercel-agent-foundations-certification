@@ -11,11 +11,11 @@ interface SearchPageProps {
 export const metadata: Metadata = {
   title: "Search",
   description:
-    "Search the full Vercel Swag Store catalog by name, category, or tag.",
+    "Search the full Ship It Shop catalog by name, category, or tag.",
   openGraph: {
-    title: "Search | Vercel Swag Store",
+    title: "Search | Ship It Shop",
     description:
-      "Search the full Vercel Swag Store catalog by name, category, or tag.",
+      "Search the full Ship It Shop catalog by name, category, or tag.",
   },
 }
 
@@ -40,7 +40,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <h1 className="text-2xl font-semibold text-foreground">Search</h1>
       <p className="mt-1 text-sm text-muted-foreground">
-        Browse our collection of premium Vercel merchandise
+        Browse our collection of premium developer merchandise
       </p>
 
       <div className="mt-8">
